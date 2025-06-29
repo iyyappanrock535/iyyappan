@@ -4,11 +4,12 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/", // ✅ root path — not /iyyappan-github.io/
+  base: "/iyyappan-github.io/", // ✅ root path — not /iyyappan-github.io/
   server: {
     host: "::",
     port: 8080,
   },
+  // assetsInclude: ["**/*.JPG"],
   plugins: [
     react(),
     mode === "development" && componentTagger(),
