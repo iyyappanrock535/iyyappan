@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://iyyappanrock535.github.io/iyyappan-github.io/",
+  "homepage": "https://iyyappanrock535.github.io/iyyappan",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

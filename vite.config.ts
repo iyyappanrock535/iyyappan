@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/iyyappan-github.io/", // ✅ root path — not /iyyappan-github.io/
+  base: "/iyyappan/", // ✅ root path — not /iyyappan-github.io/
   server: {
     host: "::",
     port: 8080,
